@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+.item input[type="checkbox"]:checked + .content {
+  text-decoration: line-through;
+  color: #999;
+}
+.item .content {
+  flex-grow: 1;
+}
+.item button {
+  background: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  color: #999;
+  border: 0;
+}

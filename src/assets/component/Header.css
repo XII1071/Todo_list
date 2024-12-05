@@ -1,0 +1,7 @@
+h1 {
+  color: rgb(59, 59, 223);
+}
+h1 span {
+  display: block;
+  color: #000;
+}
