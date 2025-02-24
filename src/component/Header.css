@@ -1,0 +1,13 @@
+h1 {
+  color: rgb(59, 59, 223);
+}
+h1 span {
+  display: block;
+  color: #000;
+}
+/* Header.css */
+.time-text {
+  color: green; /* 원하는 색상으로 변경 */
+  font-weight: bold;
+  font-size: 2.5rem; /* 글자 크기 조정 */
+}

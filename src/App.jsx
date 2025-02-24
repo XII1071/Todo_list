@@ -1,7 +1,7 @@
-import Header from "./assets/component/Header";
+import Header from "./component/Header";
 import "./App.css";
-import Editor from "./assets/component/Editor";
-import List from "./assets/component/List";
+import Editor from "./component/Editor";
+import List from "./component/List";
 import { useState, useRef } from "react";
 
 const mockdata = [
@@ -14,13 +14,13 @@ const mockdata = [
   {
     id: 1,
     isDone: false,
-    content: "세탁하기",
+    content: "Java 공부하기",
     date: new Date().getTime(),
   },
   {
     id: 2,
     isDone: false,
-    content: "노래 연습하기",
+    content: "정보처리 산업기사 공부하기",
     date: new Date().getTime(),
   },
 ];

@@ -1,0 +1,12 @@
+.list .search {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.list .search:focus {
+  border-bottom: 1px solid rgb(0, 120, 255);
+  outline: 0;
+}

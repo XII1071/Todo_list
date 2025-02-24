@@ -1,0 +1,25 @@
+h2 {
+  font-size: 20px;
+}
+.editor div {
+  display: flex;
+  gap: 10px;
+}
+
+.editor input {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+.editor input:focus {
+  outline: none;
+  border: 1px solid rgb(0, 120, 255);
+}
+.editor button {
+  background: rgb(0, 120, 255);
+  color: #fff;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+}
