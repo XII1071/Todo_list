@@ -20,7 +20,7 @@ const mockdata = [
   {
     id: 2,
     isDone: false,
-    content: "정보처리 산업기사 공부하기",
+    content: "AWS 공부하기",
     date: new Date().getTime(),
   },
 ];
